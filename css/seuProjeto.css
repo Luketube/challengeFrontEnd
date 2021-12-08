@@ -1,0 +1,21 @@
+.seu__projeto{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.seu__projeto input, textarea{
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: rgba(68, 84, 124, 0.986);
+    border: none;
+    color: white;
+}
+
+.seu__projeto p, input, textarea{
+    margin-bottom: 1rem;
+}
+
+textarea{
+    resize: none;
+}

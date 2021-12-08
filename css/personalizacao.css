@@ -1,0 +1,16 @@
+.personalizacao{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.personalizacao select{
+    margin: 1rem 0;
+}
+
+.personalizacao input{
+    width: auto;
+    height: 3rem;
+    background-color: #051D3B;
+    border: 1px solid white;
+}

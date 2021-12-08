@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraDev</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/seuProjeto.css">
+    <link rel="stylesheet" href="./css/personalizacao.css">
+    
+</head>
+
+<header>
+    <div class="cabecalho">
+        <div class="logo">
+            <img src="./imagens/Logo.png" alt="Logo da Alura Dev">
+        </div>
+        <input class="pesquisa" type="text" placeholder="Busque por algo">
+        <div class="usuario">
+            <img src="./imagens/Photo.png" alt="Foto de perfil do usuario">
+            <p class="usuario__nome">Harry</p>
+        </div>
+    </div>
+    
+</header>
+
+<body>
+    <nav class="menu">
+        <h2 class="menu__titulo">M E N U</h2>
+        <ul>
+            <li class="itens">
+                <a href="#">
+                    <img class="menu__icon" id="ativo" src="./imagens/Vector.png">
+                    <p>Editor de código</p>
+                </a>
+            </li>
+            <li class="itens">
+                <a href="#">
+                    <img class="menu__icon" src="./imagens/Comunidade.png">
+                    <p>Comunidade</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="seu__projeto">
+        <p>S E U  P R O J E T O</p>
+        <input type="text" placeholder="Nome do seu projeto">
+        <textarea cols="30" rows="2" placeholder="Descrição do seu projeto"></textarea>   
+    </div>
+
+    <div class="personalizacao">
+        <p>P E R S O N A L I Z A Ç Ã O</p>
+        <select>
+            <option>JavaScript</option>
+            <option>HTML</option>
+            <option>CSS</option>
+        </select>
+        <input type="color">
+    </div>
+</body>
+
+</html>
