@@ -1,0 +1,9 @@
+
+.botao__salvar_projeto button{
+    background-color: #5081FB;
+    border-radius: 8px;
+    border: none;
+    color: #051D3B;
+    padding: 1rem;
+    width: 100%;
+}

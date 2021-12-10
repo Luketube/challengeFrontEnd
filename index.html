@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/seuProjeto.css">
     <link rel="stylesheet" href="./css/personalizacao.css">
+    <link rel="stylesheet" href="./css/botaoSalvarProjeto.css">
+    <link rel="stylesheet" href="./css/editorCodigo.css">
+    <link rel="stylesheet" href="./css/conteudo.css">
     
 </head>
 
@@ -33,39 +36,59 @@
 </header>
 
 <body>
-    <nav class="menu">
-        <h2 class="menu__titulo">M E N U</h2>
-        <ul>
-            <li class="itens">
-                <a href="#">
-                    <img class="menu__icon" id="ativo" src="./imagens/Vector.png">
-                    <p>Editor de código</p>
-                </a>
-            </li>
-            <li class="itens">
-                <a href="#">
-                    <img class="menu__icon" src="./imagens/Comunidade.png">
-                    <p>Comunidade</p>
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-    <div class="seu__projeto">
-        <p>S E U  P R O J E T O</p>
-        <input type="text" placeholder="Nome do seu projeto">
-        <textarea cols="30" rows="2" placeholder="Descrição do seu projeto"></textarea>   
+    <div class="conteudo">
+        <nav class="menu">
+            <h2 class="menu__titulo">M E N U</h2>
+            <ul>
+                <li class="itens">
+                    <a href="#">
+                        <img class="menu__icon" id="ativo" src="./imagens/Vector.png">
+                        <p>Editor de código</p>
+                    </a>
+                </li>
+                <li class="itens">
+                    <a href="#">
+                        <img class="menu__icon" src="./imagens/Comunidade.png">
+                        <p>Comunidade</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    
+        <main class="editor">
+            <div class="editor__imagem">
+                <img src="./imagens/mac_buttons.svg" alt="icones de edição do mac book">
+            </div>
+            <textarea cols="30" rows="10" class="editor__texto">
+                
+            </textarea>
+        </main>
+    
+        <div class="menu__direito">
+            <div class="seu__projeto">
+                <p>S E U  P R O J E T O</p>
+                <input type="text" placeholder="Nome do seu projeto">
+                <textarea cols="30" rows="2" placeholder="Descrição do seu projeto"></textarea>   
+            </div>
+        
+            <div class="personalizacao">
+                <p>P E R S O N A L I Z A Ç Ã O</p>
+                <select>
+                    <option>JavaScript</option>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                </select>
+                <input type="color">
+                <div class="botao__salvar_projeto">
+                    <button>Salvar projeto</button>
+                </div>
+            </div>
+        </div>
+        
     </div>
+    
 
-    <div class="personalizacao">
-        <p>P E R S O N A L I Z A Ç Ã O</p>
-        <select>
-            <option>JavaScript</option>
-            <option>HTML</option>
-            <option>CSS</option>
-        </select>
-        <input type="color">
-    </div>
+    
 </body>
 
 </html>
